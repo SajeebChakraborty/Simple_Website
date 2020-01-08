@@ -1,0 +1,195 @@
+body{
+	
+}
+ marquee {
+        width: 100%;
+        padding: 10px 0;
+        color: red;
+      }
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  /*position: relative;
+  margin: auto;*/
+}
+body{
+
+  background-color: #393e46
+
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+#heading{
+
+  text-align: center;
+  color: red;
+  background-color: red;
+
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2; /*Menu color set up */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;/*remove underline below the link */
+  font-size: 17px;
+}
+
+/* Change the color of links on hover.hover means which menu item is selected */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+#heading{
+
+	text-align: center;
+	color: red;
+
+}
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2; /*Menu color set up */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;/*remove underline below the link */
+  font-size: 17px;
+}
+
+/* Change the color of links on hover.hover means which menu item is selected */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+input[type=number] {
+  width: 20%;
+  padding: 8px 18px;
+  margin: 8px 0;
+  /*box-sizing: border-box;*/
+}
+select {
+  width: 20%;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 2px;
+  background-color: #f1f1f1;
+}
+label{
+
+	padding: 8px 18px;
+
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 14;
+  padding: 12px 26px;
+  text-decoration: none;
+  margin: 20px 8px;
+  cursor: pointer;
+
+}
+fieldset {
+  background-color: ;
+  width: 95%;
+  height: 40%;
+  color: ;
+}
+legend {
+  padding: 2px;
+  color: red;
+  background-color: ;
+}
